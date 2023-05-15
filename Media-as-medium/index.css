@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Inter-regular";
+    src: url(./font/Inter/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-medium";
+    src: url(./font/Inter/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url(./font/Inter/Inter-Bold.ttf);
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color:  #F1F1F1;
+  }
+
+.header{
+    margin-top: 24px;
+    margin-left: 150px;
+}
+
+.header p{
+    size: 18px;
+    line-height: 22px;
+}
+
+.main-intro h1{
+    margin-left: 160px;
+    margin-top: 88px;
+}
+
+.info{
+    font-family: "Inter-medium";
+    display: flex;
+    flex-direction: space-between;
+    margin: 60px 160px;
+    border-bottom: 1px solid #F1F1F1;
+}
+.main-head{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    text-align: center;
+}
+
+.head-info {
+    display: flex;
+    margin-left: 4px;
+}
+
+.main-head img{
+    width: 24px;
+    height: 24px;
+}
+
+.main-body{
+    margin-top: 48px;
+}
+
+.main-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 45px;
+}
+
+.bottom-text{
+    display: flex;
+    align-items: center;
+}
+
+.main-bottom button{
+    width: 107px;
+    height: 30px;
+    background-color: #e2e2e2;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    border-radius: 100px;
+    border: none;
+}
+
+.bottom-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-pic img{
+    width: 100px;
+    height: 24px;
+}
+
+.time{
+    margin-left: 8px;
+}
+
+.blog-pic img{
+    width: 265px;
+    height: 265px;
+    margin-left: 160px;
+}

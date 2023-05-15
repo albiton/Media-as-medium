@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Inter-regular";
+    src: url(./font/Inter/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-medium";
+    src: url(./font/Inter/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url(./font/Inter/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Kanit-medium";
+    src: url(./font/Kanit/Kanit-Medium.ttf);
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color:  #F1F1F1;
+  }
+
+.header{
+    margin-top: 24px;
+    margin-left: 160px;
+    margin-bottom: 88px;
+}
+
+.arrow-left{
+    margin-left: 160px;
+    margin-bottom: 160px;
+}
+
+.auth-info{
+    margin: 0 160px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-item-left{
+    display: flex;
+    align-items: center;
+}
+
+.auth-item-left img{
+    width: 64px;
+    height: 64px;
+}
+
+.auth-item-left p{
+    margin: 16px;
+}
+
+.auth-item-right img{
+    width: 18px;
+    height: 18px;
+}
+
+.blog{
+    margin: 0 160px 70px;
+    font-family: "Inter-medium";
+}
+
+.blog h1{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.blog p{
+    margin-bottom: 70px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.blog img{
+    width: 1020px;
+    height: 480px;
+}
+
+.blox-text{
+    margin: 0 160px 73px;
+    font-family: "Inter-medium";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
